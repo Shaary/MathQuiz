@@ -1,17 +1,16 @@
 package com.example.mathquiz;
 
         import android.app.Activity;
-        import android.os.Bundle;
-        import android.view.View;
-        import android.widget.Button;
-        import android.widget.LinearLayout;
-        import android.widget.RadioButton;
-        import android.widget.RadioGroup;
-        import android.widget.TextView;
-        import android.widget.Toast;
+import android.os.Bundle;
+import android.view.View;
+import android.widget.Button;
+import android.widget.LinearLayout;
+import android.widget.RadioButton;
+import android.widget.RadioGroup;
+import android.widget.TextView;
+import android.widget.Toast;
 
-        import java.util.HashSet;
-        import java.util.Random;
+import java.util.HashSet;
 
 public class MathQuizActivity extends Activity implements View.OnClickListener {
     private Questions questions = new Questions();
